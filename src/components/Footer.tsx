@@ -18,11 +18,18 @@ export default function Footer() {
               Accelerating autonomous vehicle research through competitive high-speed racing at the 1:10 scale.
             </p>
             <div className="flex gap-6">
-              <Github className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
-              <Youtube className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
-              <Instagram className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
-              <MessageSquare className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
+              <a href="https://github.com/uci-f1tenth" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
+              </a>
+              <a href="https://www.youtube.com/@F1TenthUCI" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <Youtube className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
+              </a>
+              <a href="https://www.instagram.com/f1tenthuci/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <Instagram className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
+              </a>
+              <a href="https://discord.gg/fW2hf9Xtfy" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                <MessageSquare className="w-5 h-5 text-slate-300 hover:text-brand-blue cursor-pointer transition-colors" />
+              </a>
             </div>
           </div>
           
@@ -31,7 +38,6 @@ export default function Footer() {
             <ul className="space-y-4 text-slate-500 text-sm font-light">
               <li><a href="#" className="hover:text-brand-blue transition-colors">Lab Environment</a></li>
               <li><a href="#" className="hover:text-brand-blue transition-colors">Race Results</a></li>
-              {/*<li><a href="#" className="hover:text-brand-blue transition-colors">Publications</a></li>*/}
               <li><a href="#" className="hover:text-brand-blue transition-colors">Alumni</a></li>
             </ul>
           </div>

@@ -37,7 +37,7 @@ const sims = [
 
 export default function Simulators() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-20">
+    <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="mb-16">
         <span className="font-mono text-[10px] text-brand-blue font-bold tracking-[0.4em] uppercase mb-4 block">Simulation_Layer</span>
         <h2 className="text-4xl md:text-6xl font-black italic tracking-tighter text-brand-ink uppercase">Training Grounds</h2>

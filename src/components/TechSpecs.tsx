@@ -37,7 +37,7 @@ export default function TechSpecs() {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const videoId = "jEkM8n8AQvY";
   return (
-    <section id="tech" className="bg-white py-32 border-b border-slate-100">
+    <section id="tech" className="bg-white py-16 border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div className="max-w-xl">
@@ -66,7 +66,7 @@ export default function TechSpecs() {
               className="bg-white p-10 flex flex-col justify-between group hover:bg-slate-50 transition-all"
             >
               <div className="mb-12">
-                <div className="w-10 h-10 bg-slate-50 rounded-lg flex items-center justify-center text-slate-400 group-hover:text-brand-blue group-hover:bg-blue-50 transition-all mb-6">
+                <div className="w-10 h-10 bg-slate-50 rounded-lg flex items-center justify-center text-slate-500 group-hover:text-brand-blue group-hover:bg-blue-50 transition-all mb-6">
                   {spec.icon}
                 </div>
                 <h3 className="text-lg font-bold text-brand-ink mb-3">{spec.title}</h3>
@@ -76,7 +76,7 @@ export default function TechSpecs() {
               </div>
               
               <div className="pt-6 border-t border-slate-50">
-                <span className="font-mono text-[10px] text-slate-400 uppercase tracking-widest block mb-1">{spec.label}</span>
+                <span className="font-mono text-[10px] text-slate-500 uppercase tracking-widest block mb-1">{spec.label}</span>
                 <span className="text-3xl font-display font-bold text-brand-blue">{spec.value}</span>
               </div>
             </motion.div>
