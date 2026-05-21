@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ChevronRight, ArrowRight } from 'lucide-react';
-import heroImage from '/images/car_hero.JPG';
+import heroImage from '/images/car_hero.jpg';
 
 export default function Hero() {
   return (

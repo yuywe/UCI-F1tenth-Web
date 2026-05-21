@@ -38,10 +38,6 @@ export default function Events() {
             <span className="font-mono text-[10px] text-brand-blue uppercase tracking-[0.4em] mb-4 block">Calendar</span>
             <h2 className="text-5xl font-display font-bold tracking-tight text-brand-ink uppercase">Upcoming Events</h2>
           </div>
-          <div className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-full shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-            <span className="font-mono text-[10px] text-slate-500 uppercase tracking-widest">Live Updates</span>
-          </div>
         </div>
         
         <div className="grid gap-4">

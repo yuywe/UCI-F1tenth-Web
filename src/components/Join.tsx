@@ -99,7 +99,8 @@ export default function Join() {
             
             <div className="flex flex-col gap-6">
               {divisions.map((div, idx) => (
-                <div key={idx} className="group flex items-start gap-6 p-6 bg-brand-ink/50 border border-slate-800 rounded-xl hover:border-brand-blue/50 transition-colors">
+                <div key={idx} className="group flex items-start gap-6 p-6 bg-brand-ink/50 border border-slate-800 hover:border-brand-blue/50 transition-colors">
+                
                   <div className="w-12 h-12 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 group-hover:text-brand-blue group-hover:bg-brand-blue/10 transition-colors shrink-0">
                     {div.icon}
                   </div>

@@ -18,12 +18,6 @@ export default function Gallery() {
           </span>
           <h2 className="text-4xl md:text-6xl font-black italic tracking-tighter text-brand-ink uppercase">Gallery</h2>
         </div>
-        <div className="flex items-center gap-2 px-4 py-2 bg-slate-200/50 border border-slate-200 rounded-full">
-          <span className="w-2 h-2 rounded-full bg-brand-blue animate-pulse" />
-          <span className="font-mono text-[10px] text-slate-700 font-bold uppercase tracking-widest">
-            {photos.length} Records Found
-          </span>
-        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

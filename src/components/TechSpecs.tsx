@@ -47,12 +47,7 @@ export default function TechSpecs() {
               Engineered for precision. Every component in the F1TENTH ecosystem is selected for its performance-to-scale ratio, enabling true high-speed autonomy.
             </p>
           </div>
-          <div className="flex gap-4">
-            <div className="px-6 py-3 bg-brand-yellow/10 border border-brand-yellow/20 rounded-lg">
-              <span className="font-mono text-[10px] text-brand-ink/60 block uppercase">Hardware_State</span>
-              <span className="font-bold text-brand-ink">OPTIMIZED</span>
-            </div>
-          </div>
+
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-100 border border-slate-100 rounded-2xl overflow-hidden shadow-soft mb-12">
