@@ -63,10 +63,10 @@ export default function Navbar() {
         </div>
 
         <button 
-          onClick={() => window.open('https://github.com/uci-f1tenth', '_blank')} 
+          onClick={() => window.open('https://discord.gg/fW2hf9Xtfy', '_blank')} 
           className="hidden md:block px-6 py-2 bg-brand-ink text-white font-display font-bold text-xs rounded-full hover:bg-brand-blue hover:shadow-xl hover:shadow-blue-500/30 transition-all uppercase tracking-widest"
         >
-          Race Stack
+          Discord
         </button>
 
         <button 
